@@ -1,0 +1,18 @@
+[package]
+name = "csv-utils"
+version = "0.1.0"
+authors = ["fujita.y <fujita.y@edocode.co.jp>"]
+edition = "2018"
+
+[[bin]]
+name = "cu"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
+csv = "1.0.7"
+regex = "1.1.6"
+structopt = "0.2.15"
+failure = "0.1.5"
+exitfailure = "0.5.1"
+itertools = "0.8.0"
